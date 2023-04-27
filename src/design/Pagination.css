@@ -1,0 +1,20 @@
+.pagi_section svg {
+    font-size: 3em;
+    color: #454545;
+}
+.pagi_section span {
+    font-size: 2em;
+    vertical-align: super;
+    margin: 0 1em;
+    color: #454545;
+}
+
+.disable {
+    filter: opacity(0.3);
+    cursor: auto;
+}
+
+.pagi_section {
+    text-align: center;
+    margin: 4em 0 3em 0;
+}

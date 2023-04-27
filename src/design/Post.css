@@ -1,0 +1,42 @@
+a.post h3 {
+    margin: 0 0 1em 0;
+    font-size: 1.5em;
+}
+
+a.post {
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 0, 0, 0, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding: 2em;
+    transition-duration: .5s;
+    color: #454545;
+    text-decoration: none;
+}
+
+a.post .truncate_text {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+a.post svg {
+    margin-right: 1em;
+}
+
+a.post .author {
+    font-weight: 700;
+}
+
+a.post:hover {
+    transform: translate(0px, -10px);
+    cursor: pointer;
+}
+
+a.post span.comments_count {
+    font-style: italic;
+}
